@@ -7,6 +7,9 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+//Comment out require & styles work
+require('@ionic/react');
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
